@@ -17,9 +17,9 @@ T is spanning tree (Vertexes, Edges)
 
 visit(v)  
 For every neighbor w of v  
-  if w not in T  
-    add w to T  
-    add {v,w} to T  
-    visit(w)  
+  * if w not in T  
+    * add w to T  
+    * add {v,w} to T  
+    * visit(w)  
 
 #### BFS
