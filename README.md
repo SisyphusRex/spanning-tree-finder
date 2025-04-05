@@ -26,6 +26,7 @@ For every neighbor w of v
 ### BFS
 G is undirected, connected graph
 T is spanning tree
+neighbors are visited in ascending ASCII order of name
 
 Add v1 to T
 Add v1 to back of list (queue)
@@ -35,4 +36,5 @@ While the list is not empty:
  * For each neighbor w of v that is not already in T:
    * Add w and {w,v} to T
    * Insert w at the back of the list
- 
+
+
