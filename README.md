@@ -12,7 +12,7 @@ DFS goes deep into the graph and produces trees with longer paths from the start
 BFS explores graph by distance from initial vertex, starting with neighbors and expanding to neighbors of neighbors.  
 
 ## Pseudocode
-#### DFS
+### DFS
 T is spanning tree (Vertexes, Edges)
 
 visit(v)  
