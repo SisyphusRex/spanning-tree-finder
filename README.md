@@ -13,6 +13,7 @@ BFS explores graph by distance from initial vertex, starting with neighbors and 
 
 ## Pseudocode
 ### DFS
+G is undirected, connected Graph
 T is spanning tree (Vertexes, Edges)
 
 visit(v)  
@@ -23,3 +24,15 @@ For every neighbor w of v
     * visit(w)  
 
 ### BFS
+G is undirected, connected graph
+T is spanning tree
+
+Add v1 to T
+Add v1 to back of list (queue)
+
+While the list is not empty:
+ * remove vertex v from the front of the list (queue)
+ * For each neighbor w of v that is not already in T:
+   * Add w and {w,v} to T
+   * Insert w at the back of the list
+ 
